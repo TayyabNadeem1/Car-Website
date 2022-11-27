@@ -1,0 +1,252 @@
+/* ########################## Classic Cars ################### */
+
+.container{
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+html{
+    font-size: 62.5% ;
+}
+body{
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Montez', cursive;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+.navbar{
+    /* border: 2px solid#f4f4f4; */
+        padding: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&family=Montez&family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+
+.navbar .logo{
+    /* font-family: 'Montez', cursive; */
+    font-size: 2.5em;
+    float: left;
+}
+
+
+.navbar .nav-items{
+    float: right;
+    margin-top: 2px ;
+}
+.navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar::after,
+.navbar a:visited{
+    color: #f4f4f4;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.navbar ::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* ##################### header content stylling ################### */
+.header-content{
+    /* border: 2px solid white; */
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-content p{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+.header-content{
+    /* border: 2px solid white; */
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-content p{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+/* ################## showcase section stylling############### */
+.showcase{
+    background: #dad6d6;
+    padding: 10rem 0;
+}
+
+.row{
+    height:350px;
+    background: #f4f4f4;
+    box-shadow: 5px 5px 20px 0 #aaa;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10{
+    margin-bottom: 10rem;
+}
+
+.row1 .img-box, .row2 .text-box, .row3 .img-box, .row4 .text-box, .row5 .img-box, .row6 .text-box, .row7 .img-box, .row8 .text-box, .row9 .img-box, .row10 .text-box{
+    float: left;
+     width: 50%;
+}
+
+.row1 .text-box, .row2 .img-box, .row3 .text-box, .row4 .img-box, .row5 .text-box, .row6 .img-box, .row7 .text-box, .row8 .img-box, .row9 .text-box, .row10 .img-box{
+    float: right;
+    width: 48%;
+}
+
+.row .img-box{
+    height: 100%;
+}
+
+.row .text-box{
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montagu+Slab:wght@200&family=Montez&family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+
+.showcase .container h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5rem ;
+    text-shadow: #555;
+}
+
+.showcase .container .top p{
+    text-align: center;
+    font-weight: 500;
+    font-family:  'Lobster', cursive;
+    text-transform: uppercase;
+}
+
+.showcase .container .top{
+    margin-bottom: 15rem;
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content2{
+    /* border: 2px solid white; */
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-content2 h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.header-content2 p{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.header-content2 .h2::after,
+.header-content2 .h2 :visited{
+    color: #f4f4f4;
+}
+.header-content2 .h2 :hover{
+    border-bottom: 2px solid #f4f4f4;
+}
+
+
+/* ################## utility classes ######################  */ 
+.lg-heading{
+    font-size: 2rem;
+}
+
+.mid-heading{
+    font-size: 2.2rem;
+}
+
+.text-red{
+    color:rgb(151, 25, 25) ;
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+
+.text-black{
+    color:#333333;
+}
+
+.text-grey{
+    color: #555;
+}
+
+.text-purple{
+    color: blueviolet;
+}
+
+.text-footer{
+    color :#6f7d85;
+}
+
+.bg-dark{
+    background:#263238 ;
+}
+
+p, li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    
+}
+h1, h2, h3{
+    margin-bottom: o.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500 ;
+}
+
+
+
+
+/* ######################### footer ############### */
+
+.footer{
+    background:#6f7d85;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+}
